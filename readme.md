@@ -1,4 +1,4 @@
-JWT Token has three parts. **Header, Payload** and **Signature**. Separated by a dot (.).
+### JWT Token has three parts. **Header, Payload** and **Signature**. Separated by a dot (.).
 
 >The `Header` contains the information on how the token is signed.
 >
