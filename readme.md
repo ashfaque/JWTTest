@@ -27,5 +27,6 @@ python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:8000
 
 ```
-usename: admin
-password: admin
+    usename: admin
+    password: admin
+### NB:- Access Token is set to expire after 1 minute. And the Refresh Token is set to expire after 1 day. One can change this in [settings.py](/JWTTest/settings.py) file.
