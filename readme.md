@@ -34,7 +34,7 @@ python manage.py runserver 0.0.0.0:8000
 ### Sqlite3 commands:
 ```sql
 SELECT name FROM sqlite_master WHERE type='table';
-PRAGMA table_info([auth_user]);
+PRAGMA table_info([table_name]);
 ```
 
 ### Steps to install mysqlclient on Linux:
