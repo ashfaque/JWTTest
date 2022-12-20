@@ -31,6 +31,12 @@ python manage.py runserver 0.0.0.0:8000
     password: admin
 ### NB:- Access Token is set to expire after 1 minute. And the Refresh Token is set to expire after 1 day. One can change this in [settings.py](/JWTTest/settings.py) file.
 
+### Sqlite3 commands:
+```sql
+SELECT name FROM sqlite_master WHERE type='table';
+PRAGMA table_info([auth_user]);
+```
+
 ### Steps to install mysqlclient on Linux:
 ```bash
 sudo apt-get install python3-dev default-libmysqlclient-dev build-essential    # Debian / Ubuntu
