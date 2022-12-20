@@ -30,3 +30,11 @@ python manage.py runserver 0.0.0.0:8000
     usename: admin
     password: admin
 ### NB:- Access Token is set to expire after 1 minute. And the Refresh Token is set to expire after 1 day. One can change this in [settings.py](/JWTTest/settings.py) file.
+
+### Steps to install mysqlclient on Linux:
+```bash
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential    # Debian / Ubuntu
+sudo yum install python3-devel mysql-devel    # Red Hat / CentOS
+pip install --no-cache-dir mysqlclient
+```
+#### For Windows follow this [link](https://pypi.org/project/mysqlclient/) or, Download python `.whl` file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) and install it manually using `pip install` command
